@@ -24,3 +24,8 @@
 <!-- Container -->
 1--> docker start <container-id>
 2--> docker system prune
+
+3-->docker exec -it <container-id> bash
+
+4-->docker stop <container-id> 
+5-->docker kill <container-id>
