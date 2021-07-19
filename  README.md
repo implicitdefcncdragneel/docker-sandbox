@@ -23,3 +23,4 @@
 
 <!-- Container -->
 1--> docker start <container-id>
+2--> docker system prune
