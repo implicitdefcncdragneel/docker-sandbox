@@ -1,3 +1,13 @@
+<!-- Docker as System Daemon -->
+
+1-->sudo systemctl start docker
+2-->sudo systemctl enable docker
+3-->sudo systemctl restart docker
+
+<!-- Docker Permission -->
+
+1-->sudo chmod 666 /var/run/docker.sock
+
 <!-- Busy Box -->
 
 1--> docker pull busybox
