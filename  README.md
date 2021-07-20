@@ -26,6 +26,8 @@
 2--> docker system prune
 
 3-->docker exec -it <container-id> bash
+or
+3-->docker run -it <container-name> bash
 
 4-->docker stop <container-id> 
 5-->docker kill <container-id>
