@@ -28,6 +28,8 @@
 3-->docker exec -it <container-id> bash
 or
 3-->docker run -it <container-name> bash
+or
+3-->docker exec -it <container-id> sh
 
 4-->docker stop <container-id> 
 5-->docker kill <container-id>
