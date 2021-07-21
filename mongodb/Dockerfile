@@ -11,4 +11,5 @@ VOLUME [ "/data/db" ]
 WORKDIR /data
 EXPOSE 27017
 
-RUN mongo --version
+# RUN mongo --version
+CMD ["mongod"]
