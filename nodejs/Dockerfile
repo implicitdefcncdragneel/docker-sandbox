@@ -2,7 +2,10 @@ FROM node:alpine
 
 WORKDIR /usr/nodeapp
 
-COPY ./ ./
+COPY ./package.json ./
 
+RUN npm install
+
+COPY ./ ./
 
 CMD ["npm", "start"]
