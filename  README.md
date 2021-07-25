@@ -33,3 +33,7 @@ or
 
 4-->docker stop <container-id> 
 5-->docker kill <container-id>
+
+<!-- Container name -->
+
+1-->docker build -t <dockerHub-id>/<customeName>:<Version> .
