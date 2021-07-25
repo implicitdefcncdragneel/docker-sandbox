@@ -37,3 +37,7 @@ or
 <!-- Container name -->
 
 1-->docker build -t <dockerHub-id>/<customeName>:<Version> .
+
+
+<!-- Run on specific port -->
+1-->docker run -p <user-port>:<docker-port>  <docker-id>
