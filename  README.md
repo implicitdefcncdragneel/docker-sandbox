@@ -41,3 +41,7 @@ or
 
 <!-- Run on specific port -->
 1-->docker run -p <user-port>:<docker-port>  <docker-id>
+
+<!-- Docker Compose -->
+1-->docker-compose ps --all
+2-->docker-compose up --build
