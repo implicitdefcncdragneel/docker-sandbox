@@ -60,3 +60,6 @@ or
 or
 
 1-->docker run -p <user-port>:<ngnix-port> -v $(pwd):/usr/share/nginx/html <image-name>
+
+<!-- Launch a container and expose the root-filesystem -->
+1-->docker run -ti --rm -v <fileDirectory>:<dockerDirectory> alpine sh
