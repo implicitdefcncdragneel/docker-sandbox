@@ -63,3 +63,7 @@ or
 
 <!-- Launch a container and expose the root-filesystem -->
 1-->docker run -ti --rm -v <fileDirectory>:<dockerDirectory> alpine sh
+
+
+<!-- Granting Privileges on docker -->
+1-->docker run -ti --pid=host --privileged alpine sh
