@@ -62,8 +62,11 @@ or
 1-->docker run -p <user-port>:<ngnix-port> -v $(pwd):/usr/share/nginx/html <image-name>
 
 <!-- Launch a container and expose the root-filesystem -->
-1-->docker run -ti --rm -v <fileDirectory>:<dockerDirectory> alpine sh
+1-->docker run -ti --rm -v <fileDirectory>:<dockerDirectory> <containerName> sh
 
 
 <!-- Granting Privileges on docker -->
-1-->docker run -ti --pid=host --privileged alpine sh
+1-->docker run -ti --pid=host --privileged <containerName> sh
+
+<!-- Run container as non-root User  with specific folder-->
+1-->docker run -ti --rm -u 1000 -v /root:/hostFS/ <containerName> sh
